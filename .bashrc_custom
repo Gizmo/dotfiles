@@ -1,1 +1,4 @@
-alias rm='rm -i'
+source ~/dotfiles/.mintty-colors-solarized/sol.dark
+
+# function definitions
+function hunt() { grep --color=always -rinH --exclude="*.{MySCMServerInfo,xls,jar}" "$@" * ; }

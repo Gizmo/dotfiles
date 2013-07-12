@@ -3,11 +3,6 @@
 " Maintainer:	John Ling
 " Last change:	2013 May 22
 
-" Set colorscheme
-let g:solarized_termcolors=16
-syntax enable
-set background=dark
-colorscheme solarized
 
 " Automatic reloading of john.vim
 "autocmd! bufwritepost _vimrc source %
@@ -89,4 +84,14 @@ set directory=. ",/var/tmp,/tmp
 au GUIEnter * simalt ~x "x on an English Windows version. n on a French one
 
 " Additional customizations can be found in either .vimrc_custom
-" source ~/.vimrc_custom
+source ~/.vimrc_custom
+
+" Set colorscheme
+" We set this as the very last part of the configuration to mack sure other
+" parts of the script execute properly.  In particular the InsertEnter function.
+
+" Enable syntax highlighting
+syntax enable
+let g:solarized_termcolors=16
+"set background=dark
+"colorscheme solarized
