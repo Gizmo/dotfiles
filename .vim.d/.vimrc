@@ -4,6 +4,7 @@
 " Last change:	2013 May 22
 
 " Set colorscheme
+let g:solarized_termcolors=16
 syntax enable
 set background=dark
 colorscheme solarized
