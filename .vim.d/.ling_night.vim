@@ -5,6 +5,6 @@
 
 highlight ExtraWhitespace ctermbg=red guibg=red
 highlight LineNr ctermfg=darkgreen ctermbg=gray guifg=#a0ff99 guibg=#858585
-highlight ColorColumn ctermbg=darkblue guibg=#EEEEEE
+highlight ColorColumn ctermbg=black guibg=#000000
 highlight Search cterm=bold,reverse ctermfg=black ctermbg=yellow
 " highlight cursorline cterm=NONE ctermbg=lightgray ctermfg=black
